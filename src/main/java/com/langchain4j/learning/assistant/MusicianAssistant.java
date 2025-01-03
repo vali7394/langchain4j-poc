@@ -27,7 +27,7 @@ import static dev.langchain4j.model.openai.OpenAiEmbeddingModelName.TEXT_EMBEDDI
 
 public class MusicianAssistant {
 
-    public static final String OPEN_AI_KEY = "{{OPEN_AI_KEY}}";
+    public static final String OPEN_AI_KEY = "";
 
     public static void main(String[] args) {
         ChatLanguageModel chatLanguageModel = OpenAiChatModel.builder()
